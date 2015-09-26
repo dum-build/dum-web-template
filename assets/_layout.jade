@@ -1,0 +1,18 @@
+doctype html
+html
+	head
+		title Dum example
+
+		link(rel='stylesheet' href='./style/layout.css')
+
+		script(src='./lib/requirejs/require.js')
+		script.
+			requirejs.config({
+				baseUrl: 'lib',
+				paths: { }
+			})
+		block head
+
+	body
+		main
+			block content

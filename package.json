@@ -1,0 +1,16 @@
+{
+	"private": true,
+	"scripts": {"start": "dum serve"},
+	"devDependencies": {
+		"dum": "dum-build/dum",
+		"jstransformer-babel": "",
+		"jstransformer-jade": "",
+		"jstransformer-stylus": ""
+	},
+	"dum": {
+		"opts": {
+			"jade": {"pretty": true}
+		}
+	},
+	"license": "WTFPL"
+}

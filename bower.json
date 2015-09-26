@@ -1,0 +1,6 @@
+{
+	"name": "dum-web-template",
+	"dependencies": {
+		"requirejs": ""
+	}
+}
